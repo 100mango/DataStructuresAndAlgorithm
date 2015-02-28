@@ -75,11 +75,11 @@ int main(int argc, const char * argv[])
     printf("%ld \n%ld \n",i,end - bigin);
      */
     
-    /*测试主元
-    int a[] = {1,1,1,1,3,3,3,2,2};
+    ///*测试主元
+    int a[] = {1,1,1,1,1,3,3,2,2};
     int i = findMainItem(a, 9);
     printf("%d\n",i);
-    */
+    //*/
     
     
     /*  尚未完成的矩阵算法
