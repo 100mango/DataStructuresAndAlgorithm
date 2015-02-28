@@ -77,7 +77,7 @@ int main(int argc, const char * argv[])
     
     ///*测试主元
     int a[] = {1,1,1,1,1,3,3,2,2};
-    int i = findMainItem(a, 9);
+    int i = findMajorityElement(a, 9);
     printf("%d\n",i);
     //*/
     
