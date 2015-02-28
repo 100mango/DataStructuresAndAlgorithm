@@ -103,7 +103,7 @@ int findMajorityElement(int *array, int size)
         if (count == 0)
         {
             majorityElement = array[i];
-            count++;
+            count = 1;
         }
         else
         {
