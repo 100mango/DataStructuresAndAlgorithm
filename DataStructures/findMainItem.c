@@ -70,8 +70,9 @@ int findMainItem(int a[],int length)
 }
 */
 
-//
-int findMajorityElement(int* arr, int size) {
+/*
+int findMajorityElement(int* arr, int size)
+{
     int count = 0, i, majorityElement;
     for (i = 0; i < size; i++) {
         if (count == 0)
@@ -81,7 +82,6 @@ int findMajorityElement(int* arr, int size) {
         else
             count--;
     }
-    //检验是否确实为主元
     count = 0;
     for (i = 0; i < size; i++)
         if (arr[i] == majorityElement)
@@ -90,4 +90,50 @@ int findMajorityElement(int* arr, int size) {
         return majorityElement;
     return -1;
 }
+ */
 
+//算法的关键是丢弃两个不相同的元素
+int findMajorityElement(int *array, int size)
+{
+    int majorityElement;
+    int count = 0;
+    for (int i = 0; i < size; i ++)
+    {
+        //如果没有元素丢 则拾起新的一个
+        if (count == 0)
+        {
+            majorityElement = array[i];
+            count++;
+        }
+        else
+        {
+            if (majorityElement == array[i])
+            {
+                //拾起相同的元素
+                count++;
+            }
+            else
+            {
+                //丢弃两个不相同的元素  //即减去手上的一个元素和array[i]这两个元素
+                count--;
+            }
+        }
+    }
+    //检验是否为主元 例如 1，2，2，1，3 最后拾起的是3 但是也不是主元
+    count = 0;
+    for (int i = 0; i < size; i++)
+    {
+        if (array[i] == majorityElement)
+        {
+            count++;
+        }
+    }
+    if (count > size/2)
+    {
+        return majorityElement;
+    }
+    else
+    {
+        return -1;
+    }
+}
