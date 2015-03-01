@@ -16,6 +16,7 @@
 		DB9E7186182CD5A40064B8A3 /* sum.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9E7185182CD5A40064B8A3 /* sum.c */; };
 		DBA6FD98187A5DA200530C33 /* heap_sort.c in Sources */ = {isa = PBXBuildFile; fileRef = DBA6FD97187A5DA200530C33 /* heap_sort.c */; };
 		DBA748181859CD9A00D34660 /* findMainItem.c in Sources */ = {isa = PBXBuildFile; fileRef = DBA748171859CBED00D34660 /* findMainItem.c */; };
+		DBAC8C7B1AA311820067444B /* ExchangeSort.c in Sources */ = {isa = PBXBuildFile; fileRef = DBAC8C7A1AA311820067444B /* ExchangeSort.c */; };
 		DBD5B764182B7FFE003003BD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DBD5B763182B7FFE003003BD /* main.c */; };
 		DBD5B766182B7FFE003003BD /* DataStructures.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBD5B765182B7FFE003003BD /* DataStructures.1 */; };
 		DBD5B77C182B8F38003003BD /* cutPizza.c in Sources */ = {isa = PBXBuildFile; fileRef = DBD5B77B182B8F38003003BD /* cutPizza.c */; };
@@ -56,6 +57,8 @@
 		DBA6FD97187A5DA200530C33 /* heap_sort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = heap_sort.c; sourceTree = "<group>"; };
 		DBA748161859CBDC00D34660 /* findMainItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = findMainItem.h; sourceTree = "<group>"; };
 		DBA748171859CBED00D34660 /* findMainItem.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = findMainItem.c; sourceTree = "<group>"; };
+		DBAC8C791AA3116A0067444B /* ExchangeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExchangeSort.h; sourceTree = "<group>"; };
+		DBAC8C7A1AA311820067444B /* ExchangeSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ExchangeSort.c; sourceTree = "<group>"; };
 		DBD5B760182B7FFE003003BD /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD5B763182B7FFE003003BD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DBD5B765182B7FFE003003BD /* DataStructures.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DataStructures.1; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				DB5E9EB618C736F4008A94CF /* dynamic_programming.c */,
 				DB789F8818FFC19D00633358 /* strassen.h */,
 				DB789F8918FFC1AF00633358 /* strassen.c */,
+				DBAC8C791AA3116A0067444B /* ExchangeSort.h */,
+				DBAC8C7A1AA311820067444B /* ExchangeSort.c */,
 			);
 			name = "算法";
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 				DB54D7BD1877FF9100DACB54 /* shell_sort.c in Sources */,
 				DBD5B77C182B8F38003003BD /* cutPizza.c in Sources */,
 				DBA6FD98187A5DA200530C33 /* heap_sort.c in Sources */,
+				DBAC8C7B1AA311820067444B /* ExchangeSort.c in Sources */,
 				DB5E9EB718C736F4008A94CF /* dynamic_programming.c in Sources */,
 				DB9E7186182CD5A40064B8A3 /* sum.c in Sources */,
 				DB9BF11A18556DB900FA9657 /* power.c in Sources */,

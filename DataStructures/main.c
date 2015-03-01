@@ -19,6 +19,7 @@
 #include "shell_sort.h"
 #include "dynamic_programming.h"
 #include "strassen.h"
+#include "ExchangeSort.h"
 
 
 int main(int argc, const char * argv[])
@@ -75,12 +76,11 @@ int main(int argc, const char * argv[])
     printf("%ld \n%ld \n",i,end - bigin);
      */
     
-    ///*测试主元
+    /*测试主元
     int a[] = {1,1,1,1,1,3,3,2,2};
     int i = findMajorityElement(a, 9);
     printf("%d\n",i);
-    //*/
-    
+    */
     
     /*  尚未完成的矩阵算法
     int A[N][N],B[N][N],C[N][N];
@@ -99,6 +99,10 @@ int main(int argc, const char * argv[])
     //输出矩阵C中值
     output(N, C);
      */
+    
+    //  测试冒泡搜索
+     int a[] = {3,2,1,4,5,7,6,8,10,9};
+     bubbleSort(a, 10);
 }
 
 
